@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <style>
+        a { float: right; width: 20%; }
+        h1 {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            background-color: gray;
+        }
+        label { display: inline-block; width: 250px; }
+        legend { background-color: gray; }
+        canvas { float: right; }
+    </style>
+</head>
+<body>
+    <img src="image/download.png">
+    <a href="https://www.fabevy.com/">www.fabevy.com</a>
+    <h1>TRAINEE REGISTRATION FORM</h1>
+
+    <form>
+        <fieldset>
+            <legend>BASIC INFORMATION</legend>
+            <label for="name">Full Name:</label>
+            <input id="name" type="text" placeholder="Username"><br><br>
+
+            <canvas id="myCanvas" width="100" height="150" style="border:2px solid black"></canvas>
+
+            <label for="mobile">Mobile number:</label>
+            <input id="mobile" type="tel" placeholder="Mobile number">
+
+            <label for="whatsapp" style="text-align:right">Whatsapp number:</label>
+            <input id="whatsapp" type="tel" placeholder="Whatsapp number"><br><br>
+
+            <label for="dob">Date of birth:</label>
+            <input id="dob" type="date">
+
+            <label for="email" style="text-align:right">Email-ID:</label>
+            <input id="email" type="email" placeholder="Email id"><br><br>
+
+            <label for="address">Present Address:</label>
+            <input id="address" type="text" placeholder="Present address">
+        </fieldset>
+
+        <fieldset>
+            <legend>EDUCATIONAL BACKGROUND</legend>
+            <label for="degree">Highest Degree:</label>
+            <input id="degree" type="text" placeholder="Highest Degree">
+
+            <label for="department" style="text-align:right">Department:</label>
+            <input id="department" type="text" placeholder="Department">
+
+            <label for="cgpa" style="text-align:right">CGPA/PERCENTAGE:</label>
+            <input id="cgpa" type="text" placeholder="CGPA/PERCENTAGE"><br><br>
+
+            <label for="college">College:</label>
+            <input id="college" type="text" placeholder="College">
+
+            <label for="completion" style="text-align:right">Year of Completion:</label>
+            <input id="completion" type="text" placeholder="Year of completion">
+
+            <label for="arrear" style="text-align:right">Any Standing Arrears?</label>
+            <input id="arrear" type="text" placeholder="Any standing arrears"><br><br>
+
+            <label for="info">Other Info:</label>
+            <input id="info" type="text" placeholder="Other Info">
+        </fieldset>
+
+        <fieldset>
+            <legend>PARENT INFORMATION</legend>
+            <label for="father">Father's Name:</label>
+            <input id="father" type="text" placeholder="Father's Name">
+
+            <label for="mother" style="text-align:right">Mother's Name:</label>
+            <input id="mother" type="text" placeholder="Mother's Name"><br><br>
+
+            <label for="fatherOccupation">Father's Occupation:</label>
+            <input id="fatherOccupation" type="text" placeholder="Father's Occupation">
+
+            <label for="motherOccupation" style="text-align:right">Mother's Occupation:</label>
+            <input id="motherOccupation" type="text" placeholder="Mother's Occupation"><br><br>
+
+            <label for="parentAddress">Address:</label>
+            <input id="parentAddress" type="text" placeholder="Address">
+        </fieldset>
+
+        <fieldset>
+            <legend>REFERRED BY</legend>
+            <label for="refName">Name:</label>
+            <input id="refName" type="text" placeholder="Name">
+
+            <label for="profession" style="text-align:right">Profession:</label>
+            <input id="profession" type="text" placeholder="Profession"><br><br>
+
+            <label for="refMobile">Mobile Number:</label>
+            <input id="refMobile" type="tel" placeholder="Mobile Number">
+
+            <label for="refEmail" style="text-align:right">Email ID:</label>
+            <input id="refEmail" type="email" placeholder="Email ID"><br><br>
+
+            <label for="otherInfo">Other Info:</label>
+            <input id="otherInfo" type="text" placeholder="Other Info">
+        </fieldset>
+
+        <fieldset>
+            <legend>WISH TO SAY MORE ABOUT YOU?</legend>
+            <textarea></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

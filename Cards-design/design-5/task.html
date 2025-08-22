@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      background-color: #1B2631;
+      font-family: Arial, sans-serif;
+      margin: 2% 0;
+      color: white;
+    }
+
+    /* Header */
+    .head-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10%;
+    }
+
+    .head-row a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .brand {
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .head-nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .head-actions {
+      display: flex;
+      gap: 15px;
+    }
+
+    .joinbtn {
+      background-color: blue;
+      border-radius: 4px;
+      padding: 8px 15px;
+    }
+
+    /* About Section */
+    .about-container {
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .about-container h1 {
+      font-size: 35px;
+      margin: 15px 0;
+      word-spacing: 8px;
+    }
+
+    .about-container p {
+      margin: 10px 0 20px;
+    }
+
+    .btn {
+      margin-top: 15px;
+    }
+
+    .about-btn1,
+    .about-btn2 {
+      text-decoration: none;
+      border-radius: 3px;
+      padding: 10px 25px;
+      margin: 0 5px;
+      font-size: 14px;
+    }
+
+    .about-btn1 {
+      background-color: blue;
+      color: white;
+    }
+
+    .about-btn2 {
+      border: 1px solid blue;
+      color: blue;
+      background: transparent;
+    }
+
+    /* Cards Section */
+    .card-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 10%;
+    }
+
+    .card {
+      flex: 1;
+      background-color: white;
+      color: black;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      text-align: left;
+    }
+
+    .card h4 {
+      margin: 15px 0 10px;
+    }
+
+    .card-underline {
+      display: inline-block;
+      width: 40px;
+      height: 2px;
+      background-color: red;
+      margin-bottom: 15px;
+    }
+
+    /* Icon styles */
+    .icon {
+      display: inline-block;
+      padding: 10px;
+      border-radius: 4px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .icon.red { background-color: rgba(255,0,0,0.6); color: red; }
+    .icon.green { background-color: rgba(0,255,0,0.6); color: green; }
+    .icon.blue { background-color: rgba(0,0,255,0.6); color: blue; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="head-row">
+    <div class="brand">BrandName</div>
+    <nav class="head-nav">
+      <a href="#">Home</a>
+      <a href="#">Product</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="head-actions">
+      <a href="#">Login</a>
+      <a href="#" class="joinbtn">JOIN US →</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about-container">
+    <p style="color:blue;">Join Us</p>
+    <h1>Best Learning <br> Opportunities</h1>
+    <p>We know how large objects will act, but things on a <br> small scale just do not act that way.</p>
+    <div class="btn">
+      <a href="#" class="about-btn1">Get Quote Now</a>
+      <a href="#" class="about-btn2">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="card-container">
+    <div class="card-row">
+      
+      <div class="card">
+        <div class="icon red"><i class="fa fa-map-o" aria-hidden="true"></i></div>
+        <h4>Books Library</h4>
+        <span class="card-underline"></span>
+        <p>The gradual accumulation of information about atomic and small-size behaviour...</p>
+      </div>
+
+      <div class="card">
+        <div class="icon green"><i class="fa fa-picture-o" aria-hidden="true"></i></div>
+        <h4>Market Analysis</h4>
+        <span class="card-underline"></span>
+        <p>The gradual accumulation of information about atomic and small-size behaviour...</p>
+      </div>
+
+      <div class="card">
+        <div class="icon blue"><i class="fa fa-credit-card" aria-hidden="true"></i></div>
+        <h4>2,769 Online Courses</h4>
+        <span class="card-underline"></span>
+        <p>The gradual accumulation of information about atomic and small-size behaviour...</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

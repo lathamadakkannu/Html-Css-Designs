@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('image/img.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .title {
+      text-align: center;
+      color: white;
+      margin: 20px 0;
+      font-size: 26px;
+    }
+
+    .form-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    /* Left Column */
+    .form-col1 {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+
+    .contact-title {
+      color: white;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    .form-col1 h4 {
+      color: silver;
+      opacity: 0.9;
+      margin: 15px 0 5px;
+      font-weight: normal;
+    }
+
+    .form-col1 i {
+      margin-right: 8px;
+      color: #0CE245;
+    }
+
+    .form-col1 p {
+      color: #F8F9F9;
+      margin: 0 0 10px 25px;
+      font-size: 14px;
+    }
+
+    /* Right Column */
+    .form-col2 {
+      flex: 1;
+      min-width: 300px;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    form {
+      background: white;
+      border-radius: 8px;
+      padding: 25px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .form-title {
+      margin-bottom: 15px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .all-inputs {
+      margin-bottom: 15px;
+    }
+
+    input, textarea {
+      width: 100%;
+      border: 1px solid silver;
+      border-radius: 4px;
+      padding: 10px;
+      font-size: 14px;
+      outline: none;
+    }
+
+    textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    ::placeholder {
+      color: #555;
+    }
+
+    .btn {
+      text-align: right;
+    }
+
+    .btn button {
+      background: blue;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.3s ease;
+    }
+
+    .btn button:hover {
+      background: #003d99;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h3 class="title">Contact Form #10</h3>
+    <div class="form-row">
+
+      <!-- Left Column -->
+      <div class="form-col1">
+        <h3 class="contact-title">Contact Us</h3>
+
+        <h4><i class="fa fa-map-marker"></i> Address</h4>
+        <p>198 West 21th Street, Suite 721, New York, NY 10016</p>
+
+        <h4><i class="fa fa-phone"></i> Phone</h4>
+        <p>+1235 2355 98</p>
+
+        <h4><i class="fa fa-paper-plane"></i> Email</h4>
+        <p>info@yoursite.com</p>
+
+        <h4><i class="fa fa-globe"></i> Website</h4>
+        <p>yoursite.com</p>
+      </div>
+
+      <!-- Right Column -->
+      <div class="form-col2">
+        <form>
+          <h3 class="form-title">Get in Touch</h3>
+
+          <div class="all-inputs">
+            <input type="text" placeholder="Name" required>
+          </div>
+
+          <div class="all-inputs">
+            <input type="email" placeholder="Email" required>
+          </div>
+
+          <div class="all-inputs">
+            <input type="text" placeholder="Subject" required>
+          </div>
+
+          <div class="all-inputs">
+            <textarea placeholder="Message" required></textarea>
+          </div>
+
+          <div class="btn">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

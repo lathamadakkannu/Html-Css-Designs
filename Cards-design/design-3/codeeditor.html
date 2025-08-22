@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Code Editor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('image/img1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    /* Header */
+    .head-col {
+      background-color: #00150A;
+      color: #0CE245;
+      padding: 20px;
+    }
+
+    .head-col h1 {
+      margin: 10px 0;
+    }
+
+    .head-col p {
+      margin: 5px 0;
+    }
+
+    .head-col i {
+      margin-right: 6px;
+    }
+
+    .head-col a {
+      text-decoration: none;
+      color: #0CE245;
+      border: 1px solid #0CE245;
+      padding: 5px 10px;
+      margin-right: 8px;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+
+    .head-col a:hover {
+      background-color: #0CE245;
+      color: #00150A;
+    }
+
+    .head-col button {
+      color: #0CE245;
+      background: #145A32;
+      border: none;
+      border-radius: 3px;
+      padding: 6px 12px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    /* Content */
+    .content-row {
+      padding: 40px 20px;
+    }
+
+    .content-col {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+
+    .content {
+      background-color: #145A32;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .content:hover {
+      transform: scale(1.05);
+    }
+
+    .content p:first-child {
+      font-size: 28px;
+      font-weight: bold;
+      margin: 0 0 10px;
+    }
+
+    .content p:last-child {
+      font-size: 14px;
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    /* View Button */
+    .view-btn {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .view-btn a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 25px;
+      background: #00150A;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .view-btn a:hover {
+      background: #0CE245;
+      color: #00150A;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="head-col">
+    <button>Free</button>
+    <h1>Online Code Editor (React)</h1>
+    <p><i class="fa fa-signal"></i> Intermediate</p>
+    <p><i class="fa fa-clock-o"></i> 35 hours</p>
+    <p>Skills:</p>
+    <a href="#">React</a>
+    <a href="#">Web Application Development</a>
+    <a href="#">Website Hosting</a>
+  </header>
+
+  <!-- Content -->
+  <section class="content-row">
+    <div class="content-col">
+      <div class="content">
+        <p>1</p>
+        <p>Create the structural aspect of a code editor using HTML & CSS.</p>
+      </div>
+
+      <div class="content">
+        <p>2</p>
+        <p>Implement core functionalities and frontend features using React.</p>
+      </div>
+
+      <div class="content">
+        <p>3</p>
+        <p>Publish to GitHub and host your deployed code editor.</p>
+      </div>
+    </div>
+
+    <div class="view-btn">
+      <a href="#">View the Project</a>
+    </div>
+  </section>
+
+</body>
+</html>
